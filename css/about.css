@@ -108,14 +108,21 @@ header div.logonav nav a {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 97%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
-
 .middle-content {
+    display: flex;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.middle-content .text-container {
+    width: 48%;
+    padding: 0 2%;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    justify-content: center; 
 }
 
 .middle-content h2 {
@@ -173,10 +180,18 @@ header div.logonav nav a {
     background: dodgerblue;
 }
 
+button {
+    border-radius: 10%;
+    background: none;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 16px;
+}
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 40px 2% 40px;
     justify-content: space-around;
 }
 
